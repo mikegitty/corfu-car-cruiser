@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+@import '@fontsource/poppins/400.css'; /* Regular */
+@import '@fontsource/poppins/500.css'; /* Medium */
+@import '@fontsource/poppins/600.css'; /* Semibold */
+@import '@fontsource/poppins/700.css'; /* Bold */
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -52,7 +57,7 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 0 0% 0%;
     --foreground: 210 40% 98%;
 
     --card: 222.2 84% 4.9%;

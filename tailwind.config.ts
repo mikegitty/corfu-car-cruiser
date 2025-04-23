@@ -19,6 +19,11 @@ export default {
 		},
 		extend: {
 			colors: {
+				brand: {
+					yellow: '#FFE14D',
+					dark: '#111111',
+					light: '#FFFFFF',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -62,6 +67,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+				'sans': ['Poppins', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
